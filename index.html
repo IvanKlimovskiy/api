@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="#">
+  <title>API</title>
+</head>
+
+<body class="page">
+  <div class="container">
+    <img src="" alt="Рандомное фото с unsplash.com" class="image">
+    <textarea class="url"></textarea>
+    <button class="clipboard">Скопировать ссылку картинки в буфер обмена</button>
+    <p class="quote"></p>
+    <button class="button">Сменить картинку и цитату</button>
+    <p>Количество букв в цитате:</p>
+    <div class="number"></div>
+    <div class="switcher switcher_visibility_hidden">
+      <img src="./images/light.svg" alt="Значок светлой темы" class="switcher__light">
+      <label for="checkbox-footer">
+        <input class="switcher__checkbox" id="checkbox-footer" type="checkbox">
+      </label>
+      <img src="./images/dark.svg" alt="Значок тёмной темы" class="switcher__dark">
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
